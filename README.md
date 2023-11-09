@@ -1,6 +1,5 @@
 # **Información de proyecto:**
-## QuimiOrganizador es una aplicación desarrollada por el startup OncoHelp para ayudar a los pacientes de enfermedades oncológicas a reducir su estrés causado por el tratamiento,
-## además de sus parientes y doctores. Esto es a través de herramientas organizativas e informativas, diseñadas para servir de recordatorios y fuentes de información a los usuarios.
+## QuimiOrganizador es una aplicación desarrollada por el startup OncoHelp para ayudar a los pacientes de enfermedades oncológicas a reducir su estrés causado por el tratamiento, además de sus parientes y doctores. Esto es a través de herramientas organizativas e informativas, diseñadas para servir de recordatorios y fuentes de información a los usuarios.
 
 ## **Autores:**
 ### - Chavez Hernandez, Samir Arlik - U20211B774

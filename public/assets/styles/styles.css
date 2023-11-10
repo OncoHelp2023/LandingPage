@@ -1,0 +1,168 @@
+body /*todo el cuerpo*/
+{
+    background-color: rgb(138, 251, 255);
+    color:black; /*color de las letras*/
+    margin: 0px ; /*espacio que rodea al elemento por todos lados por fuera*/
+    width: 100%; /*espacio hasta donde quieres que sea el muro*/
+
+}
+
+.barra
+{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+nav /*encabezado (inicio,contactos,...)*/
+{
+    background: white;
+    height: 100px;
+    width: 100%;
+
+}
+
+nav ul
+{
+    float: right;
+    margin-right: 10px;
+
+
+}
+
+nav ul li
+{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+
+
+}
+
+nav ul li a
+{
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 4px;
+
+
+}
+
+li a:hover /*crea un cuadrado de color al pasar el cursosr encima de las letras*/
+{
+
+    background:blanchedalmond;
+    transition: 1s;
+
+}
+
+.logo /*imagen del logo*/
+{
+    
+    width:13%;
+
+
+}
+
+.contenedorImagen /*imagen del inicio*/
+{
+    position: center;
+    height: 800px;
+}
+
+
+.headerInicio
+{
+    font-size: 3rem; /*tamaño de la letra*/
+    line-height: 2rem;
+    text-align: justify;
+    color: black;
+
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pInicio
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: auto;
+  
+    font-size: 1.5rem; /*tamaño de la letra*/
+    line-height: 2rem;
+    text-align: justify;
+    color: black;
+
+}
+
+.nosotros
+{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem, 1fr));
+    grid-gap: 2rem;
+
+ 
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: justify;
+    
+}
+
+.caract
+{
+    
+
+}
+
+.tituloCarac
+{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.textCarac
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.containerS
+{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+    grid-gap: 2rem;
+
+
+}
+
+.boxS
+{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*box-shadow: 0px 0px 55px 5px rgb(0 0 0 /6%);*/ 
+    font-size: 1.1rem;
+}

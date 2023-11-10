@@ -1,0 +1,77 @@
+
+*
+{
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+body 
+{
+
+    padding: 250px;
+    background-image: linear-gradient(to top,rgb(150, 215, 235),rgb(177, 225, 233));
+  
+}
+
+.main
+{
+   margin: 20px;
+   overflow:hidden;
+   background-image: linear-gradient(to top, rgb(155, 177, 197),rgb(99, 99, 206));;
+   padding: .7em; 
+   width: 90%;
+   border-radius: 1em;
+
+
+
+}
+.logo
+{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.descripcion
+{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    margin: 2rem;
+
+}
+.main_form /*todo lo que tiene*/
+{
+
+    display: grid;
+    gap:1.5em;
+    justify-items: center;
+
+    
+}
+.main_input /*correo y contraseña*/
+{
+    
+    width: 50%;
+    max-width: 500px;
+    padding: 0.5em;
+    
+    font: inherit;
+
+}
+
+.boton
+{
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(25, 0, 255);
+    padding: 0.7em;
+    border-radius: 6em;
+    
+    font-weight: 100;
+
+}
